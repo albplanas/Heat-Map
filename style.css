@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0; }
+  #title{
+    margin-top:20px;
+    color:red;
+  }
+  svg{
+   background:gray; 
+   margin-top:5%;
+   margin-left:5%; 
+  }
+  body{
+    background:black;
+    color:white;
+    text-align: center;
+   
+  }
+  #tooltip {
+    display: flex;
+    pointer-events: none;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    padding: 2px;
+    font-size: 20px;
+    background: gray;
+    color:red;
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+    align-items: center;
+     }
+  
